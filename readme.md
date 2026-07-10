@@ -25,7 +25,7 @@ To improve schematic readability, the symbol is divided into three functional se
 This structure is intended to make the CM0 easier to integrate into carrier-board designs, especially where multiple interfaces, power domains, and high-speed signals are used.
 
 Preview of the Altium Designer symbol:
-![Screenshot](Altium Designer/CM0_SCH_Altium.png)
+![Screenshot](Altium_Designer/CM0_SCH_Altium.png)
 
 Preview of the KiCad symbol:
 ![Screenshot](KiCad/CM0_SCH_Kicad.png)
@@ -35,7 +35,7 @@ Preview of the KiCad symbol:
 The PCB footprint integrates a detailed 3D model and is intended for use when designing PCB boards for dedicated CM0 carrier boards.
 
 Preview of the Altium Designer PCB footprint:
-![Screenshot](Altium Designer/CM0_PCB_Altium.png)
+![Screenshot](Altium_Designer/CM0_PCB_Altium.png)
 
 Preview of the KiCad PCB footprint:
 ![Screenshot](KiCad/CM0_PCB_Kicad.png)
@@ -46,9 +46,8 @@ Preview of the KiCad PCB footprint:
 
 Particular attention was given to **pin 120: `GPIO_VREF`**.
 
-Earlier revisions of the English CM0 documentation contained an inconsistency regarding this pin. This issue was also discussed by users on the Raspberry Pi Forum. At one point, the Chinese and English documentation described this pin differently, which could cause confusion during carrier-board design.
-
-The documentation has since been corrected.
+Earlier revisions of the English CM0 documentation contained an inconsistency regarding this pin. This issue was also discussed by users on the Raspberry Pi Forum. Before July 2026, the Chinese and English documentation described this pin differently, which could cause confusion during carrier-board design.
+Now both datasheets (English and Chinese versions) are the same and correct regarding pinout definition.
 
 Reference: https://forums.raspberrypi.com/viewtopic.php?t=397265
 
@@ -103,7 +102,7 @@ Use this project entirely at your own risk.
 
 This project is released under the **CERN Open Hardware Licence Version 2 – Strongly Reciprocal (`CERN-OHL-S-2.0`)**.
 
-License file: [Hardware License](LICENSE)
+License file: [Hardware License](LICENSE-HARDWARE.txt)
 
 ### What does this mean?
 
