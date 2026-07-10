@@ -49,20 +49,17 @@ Always verify the library components and your carrier-board design against the l
 Official Raspberry Pi CM0 documentation in English:
 
 - **CM0 Datasheet**  
-  [Raspberry Pi Compute Module 0 Datasheet — English](https://pip.raspberrypi.com/documents/compute-module-0/CM0-Datasheet.pdf)
+  [Raspberry Pi Compute Module 0 Datasheet — English]([https://pip.raspberrypi.com/documents/compute-module-0/CM0-Datasheet.pdf](https://pip-assets.raspberrypi.com/categories/1286-raspberry-pi-compute-module-zero/documents/RP-009251-DS-3-cm0-datasheet.pdf))
 
 - **CM0 Product Brief**  
-  [Raspberry Pi Compute Module 0 Product Brief — English](https://pip.raspberrypi.com/documents/compute-module-0/CM0-Product-Brief.pdf)
+  [Raspberry Pi Compute Module 0 Product Brief — English](https://pip-assets.raspberrypi.com/categories/1286-raspberry-pi-compute-module-zero/documents/RP-009404-MM-1-Compute%20Module%20Zero%20product%20brief.pdf)
 
 ### Chinese Documentation
 
 Official Raspberry Pi CM0 documentation in Chinese:
 
 - **CM0 Datasheet**  
-  [Raspberry Pi Compute Module 0 Datasheet — Chinese](https://pip.raspberrypi.com/documents/compute-module-0/CM0-Datasheet-CN.pdf)
-
-- **CM0 Product Brief**  
-  [Raspberry Pi Compute Module 0 Product Brief — Chinese](https://pip.raspberrypi.com/documents/compute-module-0/CM0-Product-Brief-CN.pdf)
+  [Raspberry Pi Compute Module 0 Datasheet — Chinese]([https://pip.raspberrypi.com/documents/compute-module-0/CM0-Datasheet-CN.pdf](https://edatec.cn/docs/zh/cm0/ds/1-cm0/#_4-2-%E5%BC%95%E8%84%9A))
 
 ### EDATEC CM0 Reference Design
 
@@ -70,8 +67,7 @@ EDATEC provides a CM0 reference design that may be useful when developing a cust
 
 - **CM0 Reference Design Schematic and PCB Files — KiCad**
 - [EDATEC CM0 Reference Design - Schematic (PDF)](https://edatec.cn/storage/file/CM0%20IO%20Rev1%20SCH.pdf)
-- 
-[EDATEC CM0 Reference Design - KiCad source files](http://edatec.cn/storage/zip/20250920/d4be7476d8ce5a5a77f645ab08e852c5.zip)
+- [EDATEC CM0 Reference Design - KiCad source files](http://edatec.cn/storage/zip/20250920/d4be7476d8ce5a5a77f645ab08e852c5.zip)
   
 ## Pinout Notes
 
