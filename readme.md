@@ -40,16 +40,49 @@ Preview of the Altium Designer PCB footprint:
 Preview of the KiCad PCB footprint:
 ![Screenshot](KiCad/CM0_PCB_Kicad.png)
 
+## Official Documentation and Reference Design
+
+Always verify the library components and your carrier-board design against the latest official documentation before manufacturing or deploying hardware.
+
+### English Documentation
+
+Official Raspberry Pi CM0 documentation in English:
+
+- **CM0 Datasheet**  
+  [Raspberry Pi Compute Module 0 Datasheet — English](https://pip.raspberrypi.com/documents/compute-module-0/CM0-Datasheet.pdf)
+
+- **CM0 Product Brief**  
+  [Raspberry Pi Compute Module 0 Product Brief — English](https://pip.raspberrypi.com/documents/compute-module-0/CM0-Product-Brief.pdf)
+
+### Chinese Documentation
+
+Official Raspberry Pi CM0 documentation in Chinese:
+
+- **CM0 Datasheet**  
+  [Raspberry Pi Compute Module 0 Datasheet — Chinese](https://pip.raspberrypi.com/documents/compute-module-0/CM0-Datasheet-CN.pdf)
+
+- **CM0 Product Brief**  
+  [Raspberry Pi Compute Module 0 Product Brief — Chinese](https://pip.raspberrypi.com/documents/compute-module-0/CM0-Product-Brief-CN.pdf)
+
+### EDATEC CM0 Reference Design
+
+EDATEC provides a CM0 reference design that may be useful when developing a custom carrier board.
+
+- **CM0 Reference Design Schematic and PCB Files — KiCad**
+- [EDATEC CM0 Reference Design - Schematic (PDF)](https://edatec.cn/storage/file/CM0%20IO%20Rev1%20SCH.pdf)
+- 
+[EDATEC CM0 Reference Design - KiCad source files](http://edatec.cn/storage/zip/20250920/d4be7476d8ce5a5a77f645ab08e852c5.zip)
+  
 ## Pinout Notes
 
-### Pin 120 — `GPIO_VREF`
+### Pin #120 — `GPIO_VREF`
 
 Particular attention was given to **pin 120: `GPIO_VREF`**.
 
 Earlier revisions of the English CM0 documentation contained an inconsistency regarding this pin. This issue was also discussed by users on the Raspberry Pi Forum. Before July 2026, the Chinese and English documentation described this pin differently, which could cause confusion during carrier-board design.
 Now both datasheets (English and Chinese versions) are the same and correct regarding pinout definition.
 
-Reference: https://forums.raspberrypi.com/viewtopic.php?t=397265
+Reference (Raspberry Pi forum): https://forums.raspberrypi.com/viewtopic.php?t=397265
 
 ## CM0 Availability
 
