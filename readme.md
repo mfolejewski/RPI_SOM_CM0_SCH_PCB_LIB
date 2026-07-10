@@ -57,9 +57,7 @@ Official Raspberry Pi CM0 documentation in English:
 ### Chinese Documentation
 
 Official Raspberry Pi CM0 documentation in Chinese:
-
-- **CM0 Datasheet**  
-  [Raspberry Pi Compute Module 0 Datasheet — Chinese](https://pip.raspberrypi.com/documents/compute-module-0/CM0-Datasheet-CN.pdf](https://edatec.cn/docs/zh/cm0/ds/1-cm0/#_4-2-%E5%BC%95%E8%84%9A))
+[Raspberry Pi Compute Module 0 Datasheet — Chinese](https://pip.raspberrypi.com/documents/compute-module-0/CM0-Datasheet-CN.pdf](https://edatec.cn/docs/zh/cm0/ds/1-cm0/#_4-2-%E5%BC%95%E8%84%9A))
 
 ### EDATEC CM0 Reference Design
 
