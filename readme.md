@@ -49,7 +49,7 @@ Always verify the library components and your carrier-board design against the l
 Official Raspberry Pi CM0 documentation in English:
 
 - **CM0 Datasheet**  
-  [Raspberry Pi Compute Module 0 Datasheet — English](https://pip.raspberrypi.com/documents/compute-module-0/CM0-Datasheet.pdf](https://pip-assets.raspberrypi.com/categories/1286-raspberry-pi-compute-module-zero/documents/RP-009251-DS-3-cm0-datasheet.pdf)
+  [Raspberry Pi Compute Module 0 Datasheet — English](https://pip-assets.raspberrypi.com/categories/1286-raspberry-pi-compute-module-zero/documents/RP-009251-DS-3-cm0-datasheet.pdf)
 
 - **CM0 Product Brief**  
   [Raspberry Pi Compute Module 0 Product Brief — English](https://pip-assets.raspberrypi.com/categories/1286-raspberry-pi-compute-module-zero/documents/RP-009404-MM-1-Compute%20Module%20Zero%20product%20brief.pdf)
