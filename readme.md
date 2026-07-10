@@ -25,7 +25,7 @@ To improve schematic readability, the symbol is divided into three functional se
 This structure is intended to make the CM0 easier to integrate into carrier-board designs, especially where multiple interfaces, power domains, and high-speed signals are used.
 
 Preview of the Altium Designer symbol:
-![Screenshot](Altium_Designer/CM0_SCH_Altium.png)
+![Screenshot](Altium%20Designer/CM0_SCH_Altium.png)
 
 Preview of the KiCad symbol:
 ![Screenshot](KiCad/CM0_SCH_Kicad.png)
@@ -35,7 +35,7 @@ Preview of the KiCad symbol:
 The PCB footprint integrates a detailed 3D model and is intended for use when designing PCB boards for dedicated CM0 carrier boards.
 
 Preview of the Altium Designer PCB footprint:
-![Screenshot](Altium_Designer/CM0_PCB_Altium.png)
+![Screenshot](Altium%20Designer/CM0_PCB_Altium.png)
 
 Preview of the KiCad PCB footprint:
 ![Screenshot](KiCad/CM0_PCB_Kicad.png)
