@@ -1,24 +1,12 @@
-# Raspberry Pi Compute Module 0 (CM0) — SCH/PCB Library Component
+# Raspberry Pi Compute Module 0 (CM0) — SCH/PCB library component
 
-> **Unofficial SCH/PCB library component for the Raspberry Pi Ltd. Compute Module 0 (CM0) System-on-Module (SOM).**
-
-This repository provides unofficial schematic-symbol and PCB-footprint library components for the Raspberry Pi Compute Module 0 (CM0).
+This repository provides unofficial schematic symbol and PCB footprint library components for the Raspberry Pi Compute Module 0 (CM0).
 
 The components were created primarily for Raspberry Pi ecosystem enthusiasts and for developing open-source / open-hardware projects based on the CM0 module.
 
 ## Library Files
 
-This repository contains library components in the following EDA formats:
-
-- **Altium Designer**
-  - Schematic symbol (`SCH`)
-  - PCB footprint (`PCB`)
-  - Embedded detailed 3D model
-
-- **KiCad**
-  - Schematic symbol
-  - PCB footprint
-  - 3D model support
+This repository contains library components in the following EDA formats: Altium Designer and KiCad.
 
 The KiCad schematic and PCB library components were created by importing the original Altium Designer library files and adapting them for KiCad use.
 
@@ -30,31 +18,27 @@ The schematic symbol includes the CM0 pinout defined using the updated Raspberry
 
 To improve schematic readability, the symbol is divided into three functional sections:
 
-1. **Low-Speed Interfaces — GPIO / I2C / Miscellaneous**
+1. **Low-Speed Interfaces — GPIO / I2C / MISC**
 2. **High-Speed Interfaces**
 3. **Power Supply**
 
 This structure is intended to make the CM0 easier to integrate into carrier-board designs, especially where multiple interfaces, power domains, and high-speed signals are used.
 
-## PCB Footprint and 3D Model
+Preview of the Altium Designer symbol:
+![Screenshot](Altium Designer/CM0_SCH_Altium.png)
 
-The PCB footprint is intended for use when designing dedicated CM0 carrier boards.
+Preview of the KiCad symbol:
+![Screenshot](KiCad/CM0_SCH_Kicad.png)
 
-It includes:
+## PCB Footprint
 
-- CM0 pad layout;
-- mechanical outline;
-- reference designator placement;
-- detailed integrated 3D model;
-- support for mechanical verification and enclosure design.
+The PCB footprint integrates a detailed 3D model and is intended for use when designing PCB boards for dedicated CM0 carrier boards.
 
-The embedded 3D model can be used to verify:
+Preview of the Altium Designer PCB footprint:
+![Screenshot](Altium Designer/CM0_PCB_Altium.png)
 
-- module placement;
-- connector clearance;
-- component height;
-- enclosure fit;
-- mechanical integration with other PCB assemblies.
+Preview of the KiCad PCB footprint:
+![Screenshot](KiCad/CM0_PCB_Kicad.png)
 
 ## Pinout Notes
 
@@ -66,13 +50,7 @@ Earlier revisions of the English CM0 documentation contained an inconsistency re
 
 The documentation has since been corrected.
 
-At the time of preparing this library:
-
-- the current English CM0 documentation contains corrected information;
-- the current Chinese CM0 documentation is consistent with the English version;
-- both documentation versions now provide matching and correct information for `GPIO_VREF`.
-
-Nevertheless, users should always verify the pinout against the newest official Raspberry Pi CM0 documentation before manufacturing hardware.
+Reference: https://forums.raspberrypi.com/viewtopic.php?t=397265
 
 ## CM0 Availability
 
@@ -108,33 +86,6 @@ The purpose of this project is to:
 - draw attention to the potential value of making CM0 more broadly and officially available worldwide.
 
 A globally available CM0 could become an attractive option for many projects that need a compact Linux-capable SOM but do not require the performance, size, power consumption, or cost of larger Compute Module platforms.
-
-## Intended Use
-
-These library components may be useful for:
-
-- custom CM0 carrier boards;
-- industrial controllers;
-- compact embedded Linux systems;
-- networking devices;
-- automation equipment;
-- educational projects;
-- proof-of-concept hardware;
-- open-hardware reference designs;
-- enclosure and mechanical-design verification.
-
-## Important Verification Notice
-
-Before ordering PCBs or assembling hardware:
-
-- verify the latest official CM0 datasheet;
-- verify the mechanical drawing and pad dimensions;
-- verify electrical requirements, power sequencing, and signal integrity;
-- verify high-speed routing requirements;
-- review all interface limitations and design recommendations;
-- build and test prototypes before volume production.
-
-This project is intended as a practical reference and starting point, not as a replacement for official Raspberry Pi documentation, engineering validation, or product qualification.
 
 ## Disclaimer
 
