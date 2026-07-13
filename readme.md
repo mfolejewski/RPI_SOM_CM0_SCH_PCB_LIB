@@ -49,34 +49,37 @@ Always verify the library components and your carrier-board design against the l
 Official Raspberry Pi CM0 documentation in English:
 
 - **CM0 Datasheet**  
-  [Raspberry Pi Compute Module 0 Datasheet — English](https://pip-assets.raspberrypi.com/categories/1286-raspberry-pi-compute-module-zero/documents/RP-009251-DS-3-cm0-datasheet.pdf)
+  [Raspberry Pi Compute Module 0 Datasheet](https://pip-assets.raspberrypi.com/categories/1286-raspberry-pi-compute-module-zero/documents/RP-009251-DS-3-cm0-datasheet.pdf)
 
 - **CM0 Product Brief**  
-  [Raspberry Pi Compute Module 0 Product Brief — English](https://pip-assets.raspberrypi.com/categories/1286-raspberry-pi-compute-module-zero/documents/RP-009404-MM-1-Compute%20Module%20Zero%20product%20brief.pdf)
+  [Raspberry Pi Compute Module 0 Product Brief](https://pip-assets.raspberrypi.com/categories/1286-raspberry-pi-compute-module-zero/documents/RP-009404-MM-1-Compute%20Module%20Zero%20product%20brief.pdf)
 
 ### Chinese Documentation
 
 Official Raspberry Pi CM0 documentation in Chinese:
-[Raspberry Pi Compute Module 0 Datasheet — Chinese](https://edatec.cn/docs/zh/cm0/ds/1-cm0/#_4-2-%E5%BC%95%E8%84%9A))
 
-### EDATEC CM0 Reference Design
+- **CM0 Datasheet**
+[Raspberry Pi Compute Module 0 Datasheet — EDAtec (PDF)](https://edatec.cn/docs/zh/cm0/ds/1-cm0/#_4-2-%E5%BC%95%E8%84%9A)
+
+[Raspberry Pi Compute Module 0 Datasheet — EDAtec (WWW)](https://edatec.cn/docs/zh/cm0/ds/1-cm0/#_4-2-%E5%BC%95%E8%84%9A))
+
+### EDATEC CM0 Reference Design - CM0 IO Board
 
 EDATEC provides a CM0 reference design that may be useful when developing a custom carrier board.
 
 - **CM0 Reference Design Schematic and PCB Files — KiCad**
-- [EDATEC CM0 Reference Design - Schematic (PDF)](https://edatec.cn/storage/file/CM0%20IO%20Rev1%20SCH.pdf)
-- [EDATEC CM0 Reference Design - KiCad source files](http://edatec.cn/storage/zip/20250920/d4be7476d8ce5a5a77f645ab08e852c5.zip)
+- [Raspberry Pi CM0 IO Board - Schematic (PDF)](https://edatec.cn/storage/file/CM0%20IO%20Rev1%20SCH.pdf)
+- [Raspberry Pi CM0 IO Board - KiCad source files](http://edatec.cn/storage/zip/20250920/d4be7476d8ce5a5a77f645ab08e852c5.zip)
+- [Raspberry Pi CM0 IO Board - Datasheet (PDF, in Chinese)](https://edatec.cn/docs/assets/zh/cm0/cm0-dev-board-usermanual-zh.pdf)
   
 ## Pinout Notes
 
+The library component has been developed using the latest revision of the official documentation (Release 3, dated 08/07/2026), incorporating all published updates, and changes.
+
 ### Pin #120 — `GPIO_VREF`
 
-Particular attention was given to **pin 120: `GPIO_VREF`**.
-
-Earlier revisions of the English CM0 documentation contained an inconsistency regarding this pin. This issue was also discussed by users on the Raspberry Pi Forum. Before July 2026, the Chinese and English documentation described this pin differently, which could cause confusion during carrier-board design.
+Earlier revisions of the English CM0 documentation contained an inconsistency regarding this pin. This issue was also discussed by users on the [Raspberry Pi Forum](https://forums.raspberrypi.com/viewtopic.php?t=397265). Before July 2026, the Chinese and English documentation described this pin differently, which could cause confusion during carrier-board design.
 Now both datasheets (English and Chinese versions) are the same and correct regarding pinout definition.
-
-Reference (Raspberry Pi forum): https://forums.raspberrypi.com/viewtopic.php?t=397265
 
 ## CM0 Availability
 
