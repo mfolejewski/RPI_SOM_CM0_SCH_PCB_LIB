@@ -75,7 +75,7 @@ EDATEC provides a CM0 reference design that may be useful when developing a cust
 
 The library component has been developed using the latest revision of the official documentation (Release 3, dated 08/07/2026), incorporating all published updates, and changes.
 
-### Pin #120 — `GPIO_VREF`
+### Pin #120 (GPIO_VREF)
 
 Earlier revisions of the English CM0 documentation contained an inconsistency regarding this pin. This issue was also discussed by users on the [Raspberry Pi Forum](https://forums.raspberrypi.com/viewtopic.php?t=397265). Before July 2026, the Chinese and English documentation described this pin differently, which could cause confusion during carrier-board design.
 Now both datasheets (English and Chinese versions) are the same and correct regarding pinout definition.
